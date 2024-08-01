@@ -1,0 +1,24 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run test headless":"npx playwright test",
+    "run test headed":"npx playwright test --headed",
+    "open report":"npx playwright show-report",
+    "run in ui":"npx playwright test --ui",
+    "run in chrome":"npx playwright test --project=chromium",
+    "run in firefox":"npx playwright test --project=firefox",
+    "run in webkit":"npx playwright test --project=webkit",
+    "run in debug":"npx playwright test --debug",
+    "run codegen":"npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "ShelbDOC",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.2"
+  }
+}
